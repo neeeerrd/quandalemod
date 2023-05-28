@@ -1,0 +1,33 @@
+{
+  "name": "Phaser",
+  "description": "fuck phase. quandale is king.",
+  "size": 2,
+  "type": "GenericCrafter",
+  "hasItems": true,
+  "itemCapacity": 10,
+  "craftTime": 40,
+  "updateEffect": "none",
+  "consumes": {
+    "items": {
+      "items": ["quandale-coin/1"]
+    }
+  },
+  "craftEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 6,
+    "lifetime": 50,
+    "length": 25,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+	},
+  "requirements": [
+    "copper/20",
+    "lead/100"
+  ],
+  "category": "crafting",
+  "outputItem": "phase-fabric/5"
+}

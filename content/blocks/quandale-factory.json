@@ -1,0 +1,23 @@
+{
+  "name": "Quandale Factory",
+  "description": "i could totally make a mech with this",
+  "type": "UnitFactory",
+  "size": 2,
+  "consumes": {
+    "power": 2
+  },
+  "plans": [
+    {
+      "unit": "quandale",
+      "requirements": [
+        { "item": "copper", "amount": 1 }
+      ],
+      "time": 100
+    }
+  ],
+  "requirements": [
+    { "item": "quandale-coin", "amount": 5 },
+    { "item": "silicon", "amount": 10 }
+  ],
+  "category": "units"
+}

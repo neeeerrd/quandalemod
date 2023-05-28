@@ -1,0 +1,73 @@
+{
+  "name": "Big Boi Quandale",
+  "type": "mech",
+  "speed": 4,
+  "armor": 400,
+  "health": 6000,
+  "hitSize": 10,
+  "flying": false,
+  "range": 100,
+  "weapons": [
+    {
+      "name": "goofy-ahh",
+      "x": 0,
+      "y": 0,
+      "reload": 8,
+      "top": false,
+      "mirror": false,
+      "alternate": false,
+      "shootY": 3,
+      "shoot": {
+        "type": "shootPattern",
+        "shotDelay": 4,
+        "shots": 2
+      },
+      "recoil": 1.5,
+      "rotate": false,
+      "inaccuracy": 7,
+      "shootSound": "pew",
+      "shootCone": 18,
+      "bullet": {
+        "type": "BasicBulletType",
+        "collidesAir": true,
+        "speed": 5,
+        "damage": 100000,
+        "width": 0.1,
+        "height": 0.1,
+        "shootEffect": {
+          "type": "ParticleEffect",
+          "particles": 4,
+          "sizeFrom": 5,
+          "sizeTo": 0,
+          "length": 80,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "lightColor": "02FC23",
+          "colorFrom": "02FC23",
+          "colorTo": "02FC23",
+          "cone": 10
+        },
+        "smokeEffect": "none",
+        "lifetime": 12,
+        "despawnEffect": "none",
+        "hittable": false,
+        "reflectable": false,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 5,
+          "lifetime": 60,
+          "interp": "circleOut",
+          "length": 50,
+          "cone": -30,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "02FC23",
+          "colorTo": "02FC23"
+        },
+        "pierce": true,
+        "incendAmount": 5
+      }
+    }
+  ]
+}

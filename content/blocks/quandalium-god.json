@@ -1,0 +1,35 @@
+{
+  "name": "Quandalium God",
+  "description": "pay your respects or else the quandalium god may not be so merciful",
+  "size": 2,
+  "type": "GenericCrafter",
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "craftTime": 40,
+  "updateEffect": "none",
+  "consumes": {
+    "power": 0.3,
+    "items": {
+      "items": ["quandale-coin/1", "sand/1"]
+    }
+  },
+  "craftEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 6,
+    "lifetime": 50,
+    "length": 25,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+	},
+  "requirements": [
+    "copper/30",
+    "quandale-coin/10"
+  ],
+  "category": "crafting",
+  "outputItem": "quandalium/2"
+}

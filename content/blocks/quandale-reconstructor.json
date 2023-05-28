@@ -1,0 +1,25 @@
+{
+  "name": "Quandale Reconstructor",
+  "description": "embiggen. elongate. enlarge.",
+  "type": "Reconstructor",
+	"size": 3,
+	"constructTime": 200,
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 8},
+				{"item": "graphite", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "copper", "amount": 20},
+		{"item": "graphite", "amount": 10},
+    {"item": "quandalium", "amount": 5}
+	],
+	"upgrades": [
+    ["quandale", "big-boi-quandale"]
+	],
+	"category": "units"
+}
