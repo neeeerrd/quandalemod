@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="./sprites/units/quandale.png"/>
+	<img src="./icon.png"/>
 </p>
 <h1 align="center">goofy ahh mod</h1>
 <p align="center">
