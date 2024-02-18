@@ -25,7 +25,7 @@
     "lenTo": 0,
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFFF"
-	},
+  },
   "requirements": [
     "copper/20",
     "lead/100"
