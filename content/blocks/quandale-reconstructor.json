@@ -2,24 +2,24 @@
   "name": "Quandale Reconstructor",
   "description": "'what if, like, the quandale was bigger?' - some guy high on crack",
   "type": "Reconstructor",
-	"size": 3,
-	"constructTime": 200,
-	"consumes": {
-		"power": 6,
-		"items": {
-			"items": [
-				{"item": "silicon", "amount": 8},
-				{"item": "graphite", "amount": 10}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "copper", "amount": 20},
-		{"item": "graphite", "amount": 10},
+  "size": 3,
+  "constructTime": 200,
+  "consumes": {
+    "power": 6,
+    "items": {
+      "items": [
+        {"item": "silicon", "amount": 8},
+        {"item": "graphite", "amount": 10}
+      ]
+    }
+  },
+  "requirements": [
+    {"item": "copper", "amount": 20},
+    {"item": "graphite", "amount": 10},
     {"item": "quandalium", "amount": 5}
-	],
-	"upgrades": [
+  ],
+  "upgrades": [
     ["quandale", "big-boi-quandale"]
-	],
-	"category": "units"
+  ],
+  "category": "units"
 }
